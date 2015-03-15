@@ -38,7 +38,10 @@ function procesarRespuestaRegistroForm($data){
 
 function mostrarLoginForm(){
     $('#signupbox').hide();
-    $('#loginbox').show();
-    
-    
+    $('#loginbox').show();   
+}
+
+function mostrarRegistro(){
+    $('#loginbox').hide();
+    $('#signupbox').show();
 }
