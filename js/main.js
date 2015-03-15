@@ -1,6 +1,6 @@
 $( "#signupform" ).submit(function( event ) {
 $.ajax({
-    url: "http://t.ommqro.mx/registro.php", 
+    url: "https://t.ommqro.mx/registro.php", 
     jsonp: "callback",
     dataType: "jsonp",
     data: 
@@ -15,6 +15,18 @@ $.ajax({
   event.preventDefault();
 });
 
+$( "#loginform" ).submit(function( event ) {
+$.ajax({
+    url: "https://t.ommqro.mx/registro.php", 
+    jsonp: "callback",
+    dataType: "jsonp",
+    data: 
+        $('#loginform').serialize(),
+            
+    success: procesarRespuestaLoginForm
+});
+  event.preventDefault();
+});
 function procesarRespuestaRegistroForm($data){
     console.log($data);    
     if($data['error']) {
@@ -31,6 +43,26 @@ function procesarRespuestaRegistroForm($data){
                 );
         $('#signupalert').removeClass( "alert-danger" ).addClass( "alert-success" );
         $('#signupalert').show();
+        
+    }
+    
+}
+
+function procesarRespuestaLoginForm($data){
+    console.log($data);    
+    if($data['error']) {
+        $('#login-alert').html("<p> <b>Error: " + $data['error'] + "</b></p><span>" + $data['desc'] +"</span>");
+        $('#login-alert').removeClass( "alert-success" ).addClass( "alert-danger" );
+        $('#login-alert').show();
+    }
+    else if($data['uju']) {
+        $('#login-alert').html(
+                "¡Bienvenido, <b>" + $data['email'] +
+                "<br/>Estamos listos para" +
+                "<b>comenzar con el examen</b>"
+                );
+        $('#login-alert').removeClass( "alert-danger" ).addClass( "alert-success" );
+        $('#login-alert').show();
         
     }
     
