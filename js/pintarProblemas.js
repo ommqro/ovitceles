@@ -20,13 +20,13 @@ function pintar_problemas(problemas){
 			       {tag:'label', for:'radio-${id}-D',html:'${opciones.D}'},
 
 			       {tag:'input', id:'radio-${id}-E', type:'radio', name:'problema-${id}', value:'E'},
-			       {tag:'label', for:'radio-${id}-E',html:'${opciones.E}'},
+			       {tag:'label', for:'radio-${id}-E',html:'${opciones.E}'}
 
-		    ]},
+		    ]}
 
-		    {tag:'input',type:'button',name:'previous',class:"previous action-button",value:'Anterior'},
-		    {tag:'input',type:'button',name:'next',class:"next action-button",value:'Siguiente'},
-	  ]}; 
+//		    {tag:'input',type:'button',name:'previous',class:"previous action-button",value:'Anterior'},
+//		    {tag:'input',type:'button',name:'next',class:"next action-button",value:'Siguiente'},
+	  ]};
 	console.log(problemas);
 	var aux = document.createElement('div');
 	aux.innerHTML = json2html.transform(problemas,transform);
@@ -35,6 +35,9 @@ function pintar_problemas(problemas){
 	}
 	aux = document.createElement('fieldset');
 	$(aux).prop('id','fin');
+        $(aux).html('<h2>Resumen</h2>\n\
+                    <p><button class="btn btn-info" onclick="resumen();">Presiona aquí</button> para ver el resumen de tus respuestas.\n\
+                    <b><span class="btn-success">no temas</span>, podrás revisarlas antes de enviarlas.</p>');
 		document.getElementById("msform").appendChild(aux);
                 
 return;

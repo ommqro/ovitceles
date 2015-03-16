@@ -28,3 +28,14 @@ fieldset{
   min-width:110px;
 }
 
+#fin input{
+  width: 100%;
+  max-width: 50px;
+  margin: auto;
+  display: block;
+  
+border:none;
+  margin-top: 3px;
+  
+  text-align: center;
+}

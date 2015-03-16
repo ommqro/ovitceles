@@ -1,7 +1,9 @@
 function resumen(){
 	console.log("resumen");
 	var fin = document.getElementById('msform').lastChild;
-  $(fin).html('<h2>Resumen</h2> <p>Las siguientes son las respuestas que elegiste para los problemas. <b>F</b> significa no contestado.<br> Presiona <b>Volver</b> si deseas corregir alguna, o <b>Enviar</b> si ya estás listo.</p>');  
+  $(fin).html('<h2>Resumen</h2>\n\
+        <p><button class="btn btn-info" onclick="resumen();">Presiona aquí</button> para actualizar el resumen de tus respuestas.\n\
+        <br/><br/><b>F</b> significa no contestado</p>');
 
 	res = {};
      for (i=1; i<=15; i++){
@@ -24,22 +26,17 @@ function resumen(){
        
 	  s = document.createElement('input')
 	  $(s).prop('id','respuesta-'+help);
+	  $(s).prop('class','alert-success');          
 	  $(s).prop('type','text');
 	  $(s).prop('value',res[help]);
 	  $(s).prop('readonly','true');
 	  fin.appendChild(s);
      }
 
-  fin.appendChild(document.createElement('input'));
-  $(fin.lastChild).prop('class','previous action-button');
-	$(fin.lastChild).prop('type','button');
-	$(fin.lastChild).prop('value','Volver');
-
-  
-  fin.appendChild(document.createElement('input'));
-  $(fin.lastChild).prop('class','submit action-button');
-	$(fin.lastChild).prop('type','button');
-	$(fin.lastChild).prop('value','Enviar');
-
+    var s = '<p><button class="btn btn-success" onclick="enviarRespuestas();">Presiona aquí</button> para enviar tus respuestas, <b>como aparecen en el resumen actual</b>.<p>';
+    var msgEnviar = document.createElement('div');
+    msgEnviar.innerHTML = s;
+    fin.appendChild(msgEnviar);
+    
 	return;
 }
