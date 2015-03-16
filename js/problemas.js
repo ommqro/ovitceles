@@ -1,4 +1,4 @@
-[{
+Problemas = [{
     "id": "1-a",
     "enunciado": "Un sapo tarda 6 segundos para dar 3 saltos continuos. Para dar 10 saltos continuos tarda, en segundos:",
     "opciones": {
@@ -300,4 +300,4 @@
         "E": "Ninguna de las anteriores"
     },
     "imagen": "/img/cuadro.jpg"
-}]
+}];
