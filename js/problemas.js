@@ -288,7 +288,7 @@ Problemas = [{
         "D": "$9$",
         "E": "Ninguna de las anteriores"
     },
-    "imagen": "/img/cuadro.jpg"
+    "imagen": "img/cuadro.jpg"
 }, {
     "id": "15-b",
     "enunciado": "Víctor tiene $9$ cuadrados iguales y con ellos forma un cuadrado más grande, como se muestra en la figura. Si el perímetro del cuadrado grande es $36cm^{2}$, ¿cuánto mide el área de cada uno de los cuadrados pequeños?",
@@ -299,5 +299,5 @@ Problemas = [{
         "D": "$9$",
         "E": "Ninguna de las anteriores"
     },
-    "imagen": "/img/cuadro.jpg"
+    "imagen": "img/cuadro.jpg"
 }];
