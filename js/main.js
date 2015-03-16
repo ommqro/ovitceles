@@ -44,6 +44,9 @@ function procesarRespuestaRegistroForm($data){
         $('#signupalert').removeClass( "alert-danger" ).addClass( "alert-success" );
         $('#signupalert').show();
         
+        Participante.email = $data['email'];
+        Participante.frase = $('#registro-frase').val();
+        
     }
     
 }
@@ -55,7 +58,7 @@ function procesarRespuestaLoginForm($data){
         $('#login-alert').removeClass( "alert-success" ).addClass( "alert-danger" );
         $('#login-alert').show();
     }
-    else if($data['uju']) {
+    else if($data['uju'] === "2015") {
         $('#login-alert').html(
                 "¡Bienvenido, <b>" + $data['email'] +
                 "<br/>Estamos listos para " +
@@ -63,7 +66,9 @@ function procesarRespuestaLoginForm($data){
                 );
         $('#login-alert').removeClass( "alert-danger" ).addClass( "alert-success" );
         $('#login-alert').show();
-        
+
+        Participante.email = $data['email'];
+        Participante.frase = $('#login-frase').val();
     }
     
 }
@@ -87,4 +92,33 @@ function comenzarExamen(){
     MathJax.Hub.Typeset();
     
     $('#msform-alert').show();    
+}
+
+function enviarRespuestas(){
+
+  datos_array = {};
+  datos_array["id"] = Participante.id;
+  datos_array["email"] = Participante.email;
+  datos_array["frase"]    = Participante.frase;
+  datos_array["accion"]    = "actualizarRespuestas";
+  datos_array["respuestas"]   = JSON.stringify(res);
+  
+   $.get( "https://t.ommqro.mx/registro.php", datos_array, function( data ) {
+    console.log( data );
+	if(data['uju'] === "3001"){
+            
+            $('#msform-alert').html('¡Listo! Acabamos de guardar las siguientes respuestas:<br/>\n\
+                                    <pre>'+data['respuestas']+'</pre>\n\
+                                    asociadas a tu email:' + data['email']);
+           $('#msform-alert').removeClass('alert-info').addClass('alert-success');
+	}
+	else{
+		alert("Algo saliÃ³ mal al enviar tus respuestas.\n Por favor envÃ­anos un email\n ommqro@gmail.com");
+		alert("Incluye la siguiente informaciÃ³n en tu email avisando del error: "+data);
+	}
+	
+
+   }, "json");  
+
+    
 }
