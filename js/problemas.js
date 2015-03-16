@@ -1,334 +1,303 @@
-Problemas = [
-  {
+[{
     "id": "1-a",
-    "enunciado": "El promedio de dos números es $5a$ y uno de los números es $2a+3$, ¿cuál es el otro número?",
+    "enunciado": "Un sapo tarda 6 segundos para dar 3 saltos continuos. Para dar 10 saltos continuos tarda, en segundos:",
     "opciones": {
-      "A": "$3a-3$",
-      "B": "$8a-3$",
-      "C": "$12a+3$",
-      "D": "$8a+3$",
-      "E": "$7a+3$"
+        "A": "$10$",
+        "B": "$12$",
+        "C": "$15$",
+        "D": "$18$",
+        "E": "$20$"
     }
-  },
-  {
+}, {
     "id": "1-b",
-    "enunciado": "El promedio de dos números es $8a$ y uno de los números es $3a+2$, ¿cuál es el otro número?",
+    "enunciado": "Un sapo tarda 8 segundos para dar 4 saltos continuos. Para dar 15 saltos continuos tarda, en segundos:",
     "opciones": {
-      "A": "$7a-2$",
-      "B": "$2a+3$",
-      "C": "$24a+2$",
-      "D": "$5a-2$",
-      "E": "$a-2$"
+        "A": "$30$",
+        "B": "$12$",
+        "C": "$15$",
+        "D": "$18$",
+        "E": "$20$"
     }
-  },
-  {
+}, {
     "id": "2-a",
-    "enunciado": "¿Cuál es la suma de los divisores primos de $2002$?",
+    "enunciado": "Dada la sucesión de letras de la palabra olimpiada: \\[olimpiadaolimpiadaolimpiadaolimpiadaolimpiada...\\] La letra que ocupa la posición 2015 es",
     "opciones": {
-      "A": "$31$",
-      "B": "$102$",
-      "C": "$104$",
-      "D": "$152$",
-      "E": "$33$"
+        "A": "$a$",
+        "B": "$o$",
+        "C": "$d$",
+        "D": "$i$",
+        "E": "$m$"
     }
-  },
-  {
+}, {
     "id": "2-b",
-    "enunciado": "¿Cuál es la suma de los divisores primos de $1155$?",
+    "enunciado": "Dada la sucesión de letras de la palabra matematicas: \\[matematicasmatematicasmatematicasmatematicasmatematicas...\\] La letra que ocupa la posición 2015 es ",
     "opciones": {
-      "A": "$26$",
-      "B": "$12$",
-      "C": "$25$",
-      "D": "$66$",
-      "E": "$155$"
+        "A": "$a$",
+        "B": "$m$",
+        "C": "$e$",
+        "D": "$t$",
+        "E": "$i$"
     }
-  },
-  {
+}, {
     "id": "3-a",
-    "enunciado": "La fracción $\frac{3^{2002}7^{2004}}{(21)^{2003}}$ es igual a:",
+    "enunciado": "De los siguientes números el que es divisible por la suma de sus dígitos es",
     "opciones": {
-      "A": "$\frac{1}{3}$",
-      "B": "$\frac{1}{7}$",
-      "C": "$\frac{1}{21}$",
-      "D": "$\frac{3}{7}$",
-      "E": "$\frac{7}{3}$"
+        "A": "$2012$",
+        "B": "$2009$",
+        "C": "$2011$",
+        "D": "$2008$",
+        "E": "$2010$"
     }
-  },
-  {
+}, {
     "id": "3-b",
-    "enunciado": "La fracción $\frac{2^{2002}5^{2004}}{(10)^{2003}}$ es igual a:",
+    "enunciado": "De los siguientes números el que es divisible por la suma de sus dígitos es",
     "opciones": {
-      "A": "$\frac{1}{2}$",
-      "B": "$\frac{1}{5}$",
-      "C": "$\frac{1}{10}$",
-      "D": "$\frac{2}{5}$",
-      "E": "$\frac{5}{2}$"
+        "A": "$2015$",
+        "B": "$2016$",
+        "C": "$2014$",
+        "D": "$2012$",
+        "E": "$2013$"
     }
-  },
-  {
+}, {
     "id": "4-a",
-    "enunciado": "¿Qué proporción del hexágono ocupa la región sombreada? (hexágono)",
+    "enunciado": "Chuy elige un número de dos cifras, se lo resta a 300 y el número obtenido lo multiplica por 3; el resultado que no puede obtener es:",
     "opciones": {
-      "A": "$\frac{1}{5}$",
-      "B": "$\frac{1}{7}$",
-      "C": "$\frac{1}{4}$",
-      "D": "$\frac{1}{6}$",
-      "E": "Ninguna de las anteriores"
+        "A": "$570$",
+        "B": "$606$",
+        "C": "$630$",
+        "D": "$750$",
+        "E": "$840$"
     }
-  },
-  {
+}, {
     "id": "4-b",
-    "enunciado": "Si cada cuadrito tiene como área 1 $cm^{2}$, ¿cuál es el área de la figura sombreada? (rectangulo B)",
+    "enunciado": "Toñito elige un número de dos cifras, se lo resta a 200 y el número obtenido lo multiplica por 2; el resultado que no puede obtener es:",
     "opciones": {
-      "A": "$2$",
-      "B": "$8$",
-      "C": "$4$",
-      "D": "$3$",
-      "E": "Ninguna de las anteriores"
+        "A": "$204$",
+        "B": "$362$",
+        "C": "$382$",
+        "D": "$256$",
+        "E": "$312$"
     }
-  },
-  {
+}, {
     "id": "5-a",
-    "enunciado": "Tomando como base al número $10780$, ¿cuál de las siguientes afirmaciones son verdaderas? \\begin{enumerate} \\item Es divisible por 2. \\item Es divisible por 3. \\item Es divisible por 11\\end{enumerate}",
+    "enunciado": "Si $A$ es el conjunto de los números de 1 a 100 cuyo menor divisor primo es 5, la cantidad de elementos de A es:",
     "opciones": {
-      "A": "1 y 3.",
-      "B": "Sólo 1.",
-      "C": "Sólo 2.",
-      "D": "Sólo 3.",
-      "E": "1 y 2."
+        "A": "$15$",
+        "B": "$10$",
+        "C": "$7$",
+        "D": "$6$",
+        "E": "$5$"
     }
-  },
-  {
+}, {
     "id": "5-b",
-    "enunciado": "Tomando como base al número $4235$, ¿cuál de las siguientes afirmaciones son verdaderas? \\begin{enumerate} \\item Es divisible por 5. \\item Es divisible por 7. \\item Es divisible por 11 \\end{enumerate}",
+    "enunciado": "Si $A$ es el conjunto de los números de 1 a 100 cuyo menor divisor primo es 7, la cantidad de elementos de A es:",
     "opciones": {
-      "A": "Sólo 3.",
-      "B": "Sólo 1.",
-      "C": "Sólo 2.",
-      "D": "2 y 3.",
-      "E": "1 y 2"
+        "A": "$5$",
+        "B": "$4$",
+        "C": "$3$",
+        "D": "$2$",
+        "E": "$1$"
     }
-  },
-  {
+}, {
     "id": "6-a",
-    "enunciado": "Una hoja rectangular se dobla por las esquinas de modo que se genera la figura dada, cuyas longitudes de los lados son 9 cm y 12 cm. ¿Cuáles son las longitudes de la figura original? (rectangulo)",
+    "enunciado": "Los enteros positivos 24,36 y N tienen la propiedad de que el producto de cualquiera dos de ellos es múltiplo del tercero. El menor valor posible para N es: ",
     "opciones": {
-      "A": "13.5 cm y 24 cm",
-      "B": "14.4 cm y 15 cm",
-      "C": "18.6 cm y 17.4 cm",
-      "D": "9.6 cm y 5.4 cm",
-      "E": "No se puede saber"
+        "A": "$3$",
+        "B": "$12$",
+        "C": "$6$",
+        "D": "$18$",
+        "E": "$9$"
     }
-  },
-  {
+}, {
     "id": "6-b",
-    "enunciado": "El cuadrado grande mide 169 $u^{2}$ de superficie. ¿Cuál es la superficie del cuadrado más pequeño? (cuadrado B)",
+    "enunciado": "Los enteros positivos 24,18 y M tienen la propiedad de que el producto de cualquiera dos de ellos es múltiplo del tercero. El menor valor posible para M es: ",
     "opciones": {
-      "A": "$\\frac{169}{16}\\  u^{2}$",
-      "B": "$\\frac{169}{4}\\  u^{2}$",
-      "C": "$\\frac{169}{8}\\  u^{2}$",
-      "D": "$\\frac{169}{2}\\  u^{2}$",
-      "E": "No se puede saber"
+        "A": "$3$",
+        "B": "$12$",
+        "C": "$6$",
+        "D": "$18$",
+        "E": "$9$"
     }
-  },
-  {
+}, {
     "id": "7-a",
-    "enunciado": "¿Cuál es la cifra de las unidades de $2^{2014}$",
+    "enunciado": "Juan durmió el lunes $3\frac{1}{2}$ horas; el martes, $1\frac{1}{3}$ horas; el miércoles, $1\frac{1}{2}$ y el jueves, $3\frac{1}{3}$ . Cuántas horas durmió en total durante los cuatro días?.",
     "opciones": {
-      "A": "$2$",
-      "B": "$4$",
-      "C": "$6$",
-      "D": "$8$",
-      "E": "No se puede determinar"
+        "A": "$8\frac{1}{8}$",
+        "B": "$8\frac{2}{6}$",
+        "C": "$\frac{51}{6}$",
+        "D": "$9\frac{2}{3}$",
+        "E": "$8\frac{5}{6}$"
     }
-  },
-  {
+}, {
     "id": "7-b",
-    "enunciado": "¿Cuál es la cifra de las unidades de $3^{2014}$?",
+    "enunciado": "Mauricio durmió el lunes $1\frac{1}{2}$ horas ; el martes, $1\frac{1}{3}$ horas; el miércoles, $3\frac{1}{2}$  y el jueves, $3\frac{1}{3}$. Cuántas horas durmió en total durante los cuatro días?.",
     "opciones": {
-      "A": "$1$",
-      "B": "$3$",
-      "C": "$7$",
-      "D": "$9$",
-      "E": "No se puede determinar"
+        "A": "$8\frac{1}{8}$",
+        "B": "$8\frac{2}{6}$",
+        "C": "$\frac{51}{6}$",
+        "D": "$9\frac{2}{3}$",
+        "E": "$8\frac{5}{6}$"
     }
-  },
-  {
+}, {
     "id": "8-a",
-    "enunciado": "Un dragón tiene 7 cabezas; por cada cabeza que se le corta le crecen 6 más. Si se le cortan 10 cabezas, ¿cuántas cabezas tendrá al final?",
+    "enunciado": "¿Qué número restado a 345.58 da como resultado 320.789?",
     "opciones": {
-      "A": "$57$",
-      "B": "$50$",
-      "C": "$55$",
-      "D": "$56$",
-      "E": "$51$"
+        "A": "$23.791$",
+        "B": "$24.791$",
+        "C": "$25.791$",
+        "D": "$26.911$",
+        "E": "$26.791$"
     }
-  },
-  {
+}, {
     "id": "8-b",
-    "enunciado": "Un lagarto tiene 5 colas; por cada cola que se le corta le crecen 5 más. Si se le cortan 6 colas, ¿cuántas colas tendrá al  final?",
+    "enunciado": "¿Qué número restado a 394.801 da como resultado 367.89?",
     "opciones": {
-      "A": "$29$",
-      "B": "$30$",
-      "C": "$31$",
-      "D": "$32$",
-      "E": "$33$"
+        "A": "$23.791$",
+        "B": "$24.791$",
+        "C": "$25.791$",
+        "D": "$26.911$",
+        "E": "$26.791$"
     }
-  },
-  {
+}, {
     "id": "9-a",
-    "enunciado": "Un número palindromo es un número natural que se lee igual de izquierda a derecha o de derecha a izquierda, por ejempo, 323 es un número palindromo. ¿Cuántos números de tres dígitos son palindromos?",
-    "opciones": {
-      "A": "$90$",
-      "B": "$81$",
-      "C": "$100$",
-      "D": "$99$",
-      "E": "$111$"
+    "enunciado": "¿Cuál es el número que después de multiplicarlo por $5$, restarle $2$ y sumarle $3$ da como resultado  $16$ ?",
+    "opciones" : {
+        "A": "$8$",
+        "B": "$1$",
+        "C": "$5$",
+        "D": "$2$",
+        "E": "$3$"
     }
-  },
-  {
+}, {
     "id": "9-b",
-    "enunciado": "Un número palindromo es un número natural que se lee igual de izquierda a derecha o de derecha a izquierda, por ejempo, 323 es un número palindromo. ¿Cuántos números de cuatro dígitos son palindromos?",
-    "opciones": {
-      "A": "$81$",
-      "B": "$90$",
-      "C": "$99$",
-      "D": "$100$",
-      "E": "$111$"
+    "enunciado" : "¿Cuál es el número que después de multiplicarlo por $3$, restarle $6$ y sumarle $3$ da como resultado $15$ ?",
+    "opciones" : {
+        "A": "$8$",
+        "B": "$6$",
+        "C": "$5$",
+        "D": "$2$",
+        "E": "$3$"
     }
-  },
-  {
+}, {
     "id": "10-a",
-    "enunciado": "¿Cuánto es lo menos que puede valer la suma de dos números de 3 cifras que se forman repartiendo los dígitos 2, 4, 5, 6, 8 y 9?",
+    "enunciado": "Si un padre tiene $34$ años y su hija $7$, ¿dentro de cuántos años, la edad del padre será el triple que la de la hija?.",
     "opciones": {
-      "A": "$934$",
-      "B": "$526$",
-      "C": "$727$",
-      "D": "$613$",
-      "E": "$Ninguna$"
+        "A": "$9$",
+        "B": "$10$",
+        "C": "$3$",
+        "D": "$5$",
+        "E": "$Ninguna$"
     }
-  },
-  {
+}, {
     "id": "10-b",
-    "enunciado": "¿Cuánto es lo menos que puede valer la suma de dos números de 3 cifras que se forman repartiendo los dígitos 1, 3, 5, 7, 8 y 9?",
+    "enunciado": "Si un padre tiene $35$ años y su hija $9$, ¿dentro de cuántos años de edad del padre será el triple que la de la hija?.",
     "opciones": {
-      "A": "$400$",
-      "B": "$437$",
-      "C": "$190$",
-      "D": "$924$",
-      "E": "$226$"
+        "A": "$9$",
+        "B": "$4$",
+        "C": "$3$",
+        "D": "$5$",
+        "E": "$Ninguna$"
     }
-  },
-  {
+}, {
     "id": "11-a",
-    "enunciado": "Si $p$ y $q$ son dos números primos que satisfacen: $p<q$ y $p+q=2013$. ¿Cuántos valores puede tomar $p$?",
-    "opciones": {
-      "A": "$1$",
-      "B": "$2$",
-      "C": "$3$",
-      "D": "$4$",
-      "E": "Más de $4$"
+    "enunciado": "Rosario tiene $7$ cajas de chocolates y $5$ sueltos.Si las cajas contienen el mismo número de chocolates y en total son $96$, ¿cuántos chocolates hay en cada caja ? ",
+    "opciones" : {
+        "A": "$9$",
+        "B": "$10$",
+        "C": "$11$",
+        "D": "$12$",
+        "E": "$13$"
     }
-  },
-  {
+}, {
     "id": "11-b",
-    "enunciado": "Si $p$ y $q$ son dos números primos que satisfacen: $p<q$ y $p+q=2013$. ¿Cuántos valores puede tomar $p$?",
-    "opciones": {
-      "A": "$1$",
-      "B": "$2$",
-      "C": "$3$",
-      "D": "$4$",
-      "E": "Más de $4$"
+    "enunciado": "Rosario tiene $6$ cajas de chocolates y $9$ sueltos.Si las cajas contienen el mismo número de chocolates y en total son $63$, ¿cuántos chocolates hay en cada caja ?",
+    "opciones" : {
+        "A": "$9$",
+        "B": "$10$",
+        "C": "$11$",
+        "D": "$12$",
+        "E": "$13$"
     }
-  },
-  {
+}, {
     "id": "12-a",
-    "enunciado": "En la siguiente figura las rectas $AN$, $AM$ y $BC$ son tangentes al círculo y la longitud de $AN$ es $7$. El perímetro del triángulo $ABC$ es: (tangentes)",
-    "opciones": {
-      "A": "$12$",
-      "B": "$13$",
-      "C": "$14$",
-      "D": "$15$",
-      "E": "$16$"
-    },
-    "imagen": "http://2014.05.08.ommqro.mx/img/circle.png"
-  },
-  {
+    "enunciado": "Se tienen ocho monedas aparentemente idénticas, de las cuales una es falsa y su característica es que es más delgada y por lo tanto de menor peso.¿Cuál es el mínimo número de pesadas que puedes hacer para encontrar la moneda falsa?",
+    "opciones" : {
+        "A": "$1$",
+        "B": "$2$",
+        "C": "$3$",
+        "D": "$4$",
+        "E": "$5$"
+    }
+}, {
     "id": "12-b",
-    "enunciado": "Si en el cuadrado $ABCD$ el triángulo $ABE$ es equilátero, ¿cuánto mide el ángulo $BFC$? (cuadrado)",
-    "opciones": {
-      "A": "$120°$",
-      "B": "$105°$",
-      "C": "$90°$",
-      "D": "$95°$",
-      "E": "$75°$"
-    },
-    "imagen": "http://2014.05.08.ommqro.mx/img/cuadro.png"
-  },
-  {
+    "enunciado": "Se tienen ocho monedas aparentemente idénticas, de las cuales una es falsa y su característica es que es más delgada y por lo tanto de menor peso.¿Cuál es el mínimo número de pesadas que puedes hacer para encontrar la moneda falsa?",
+    "opciones" : {
+        "A": "$1$",
+        "B": "$2$",
+        "C": "$3$",
+        "D": "$4$",
+        "E": "$5$"
+    }
+}, {
     "id": "13-a",
-    "enunciado": "¿Cuántas parejas de enteros positivos son soluciones de $2^{2x}-3^{2y}=291$?",
+    "enunciado": "¿Cuántos números distintos de cuatro cifras se pueden formar con unos y ceros?",
     "opciones": {
-      "A": "$0$",
-      "B": "$1$",
-      "C": "$2$",
-      "D": "$3$",
-      "E": "Más de tres"
+        "A": "$6$",
+        "B": "$8$",
+        "C": "$10$",
+        "D": "$12$",
+        "E": "$14$"
     }
-  },
-  {
+}, {
     "id": "13-b",
-    "enunciado": "¿Cuántas parejas de enteros positivos son soluciones de $3^{2x}-2^{2y}=445$?",
-    "opciones": {
-      "A": "$0$",
-      "B": "$1$",
-      "C": "$2$",
-      "D": "$3$",
-      "E": "Más de tres"
+    "enunciado": "¿Cuántos números distintos de cuatro cifras se pueden formar con los dígitos dos y cinco ?",
+    "opciones" : {
+        "A": "$6$",
+        "B": "$8$",
+        "C": "$10$",
+        "D": "$12$",
+        "E": "$14$"
     }
-  },
-  {
+}, {
     "id": "14-a",
-    "enunciado": "¿Cuál es el número de enteros entre $1$ y $2006$ (contando al $2006$) que no son divisibles por $2$ o $5$?",
-    "opciones": {
-      "A": "$1204$",
-      "B": "$801$",
-      "C": "$802$",
-      "D": "$601$",
-      "E": "Ninguna de las anteriores"
+    "enunciado": "Una persona tiene tres monedas de distintos valores.¿Cuántas cantidades diferentes de dinero puede formar con las monedas?",
+    "opciones" : {
+        "A": "$3$",
+        "B": "$4$",
+        "C": "$5$",
+        "D": "$6$",
+        "E": "$7$"
     }
-  },
-  {
+}, {
     "id": "14-b",
-    "enunciado": "¿Cuántos enteros entre $1$ y $2003$ son divisibles por $7$ y $13$ pero no son divisibles por $49$?",
-    "opciones": {
-      "A": "$20$",
-      "B": "$22$",
-      "C": "$19$",
-      "D": "$23$",
-      "E": "$17$"
+    "enunciado": "Jorge tiene tres monedas de distintos valores.¿Cuántas sumas diferentes de dinero puede formar con las monedas?",
+    "opciones" : {
+        "A": "$7$",
+        "B": "$6$",
+        "C": "$5$",
+        "D": "$4$",
+        "E": "$3$"
     }
-  },
-  {
+}, {
     "id": "15-a",
-    "enunciado": "¿Para cuántos números $a$ del $2$ al $25$ se tiene que $a^{3}-a$ es un múltiplo de $84$?",
+    "enunciado": "Víctor tiene $9$ cuadrados iguales y con ellos forma un cuadrado más grande, como se muestra en la figura. Si el área del cuadrado grande es  $81cm^{2}$, ¿cuánto mide el área de cada uno de los cuadrados pequeños?",
     "opciones": {
-      "A": "$0$",
-      "B": "$3$",
-      "C": "$6$",
-      "D": "$9$",
-      "E": "Ninguna de las anteriores"
-    }
-  },
-  {
+        "A": "$0$",
+        "B": "$3$",
+        "C": "$6$",
+        "D": "$9$",
+        "E": "Ninguna de las anteriores"
+    },
+    "imagen": "/img/cuadro.jpg"
+}, {
     "id": "15-b",
-    "enunciado": "¿Para cuántos números $a$ del $2$ al $40$ se tiene que $a^{3}-a$ es un múltiplo de $132$?",
-    "opciones": {
-      "A": "$6$",
-      "B": "$0$",
-      "C": "$3$",
-      "D": "$5$",
-      "E": "Ninguna de las anteriores"
-    }
-  }
-];
+    "enunciado": "Víctor tiene $9$ cuadrados iguales y con ellos forma un cuadrado más grande, como se muestra en la figura. Si el perímetro del cuadrado grande es $36cm^{2}$, ¿cuánto mide el área de cada uno de los cuadrados pequeños?",
+    "opciones" : {
+        "A": "$4$",
+        "B": "$3$",
+        "C": "$6$",
+        "D": "$9$",
+        "E": "Ninguna de las anteriores"
+    },
+    "imagen": "/img/cuadro.jpg"
+}]
