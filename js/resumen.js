@@ -26,7 +26,7 @@ function resumen(){
        || jQuery( 'input[name=problema-'+i+'-b]:checked' ).val()
        || "F");
        
-	  s = document.createElement('input')
+	  s = document.createElement('input');
 	  $(s).prop('id','respuesta-'+help);
 	  $(s).prop('class','alert-success');          
 	  $(s).prop('type','text');
