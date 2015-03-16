@@ -122,7 +122,7 @@ Problemas = [{
     "id": "13-b",
     "enunciado": "¿Cuántos números distintos de cuatro cifras se pueden formar con los dígitos dos y cinco ?",
     "opciones" : {
-        "A": "$6$",
+        "A": "$16$",
         "B": "$8$",
         "C": "$10$",
         "D": "$12$",
@@ -140,7 +140,7 @@ Problemas = [{
     }
 }, {
     "id": "15-b",
-    "enunciado": "Víctor tiene $9$ cuadrados iguales y con ellos forma un cuadrado más grande, como se muestra en la figura. Si el perímetro del cuadrado grande es $36cm^{2}$, ¿cuánto mide el área de cada uno de los cuadrados pequeños?",
+    "enunciado": "Víctor tiene $9$ cuadrados iguales y con ellos forma un cuadrado más grande, como se muestra en la figura. Si el área del cuadrado grande es $36cm^{2}$, ¿cuánto mide el área de cada uno de los cuadrados pequeños?",
     "opciones" : {
         "A": "$4$",
         "B": "$3$",
