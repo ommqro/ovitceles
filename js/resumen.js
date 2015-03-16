@@ -33,7 +33,8 @@ function resumen(){
 	  fin.appendChild(s);
      }
 
-    var s = '<p><button class="btn btn-success" onclick="enviarRespuestas();">Presiona aquí</button> para enviar tus respuestas, <b>como aparecen en el resumen actual</b>.<p>';
+    var s = '<p><a id="btnEnviar" class="btn btn btn-success" href="#btnEnviar" onclick="enviarRespuestas()"><span class="glyphicon glyphicon-floppy-open"></span> Presiona aquí</a>\n\
+                 para enviar tus respuestas, <b>como aparecen en el resumen actual</b>.<p>';
     var msgEnviar = document.createElement('div');
     msgEnviar.innerHTML = s;
     fin.appendChild(msgEnviar);
