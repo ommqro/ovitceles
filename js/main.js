@@ -58,7 +58,7 @@ function procesarRespuestaLoginForm($data){
     else if($data['uju']) {
         $('#login-alert').html(
                 "¡Bienvenido, <b>" + $data['email'] +
-                "<br/>Estamos listos para" +
+                "<br/>Estamos listos para " +
                 "<a id='comenzarlink' href='#' onclick='comenzarExamen();'>comenzar con el examen</a>."
                 );
         $('#login-alert').removeClass( "alert-danger" ).addClass( "alert-success" );

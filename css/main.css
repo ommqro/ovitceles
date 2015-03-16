@@ -1,22 +1,29 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+#msform{
+  max-width: 690px;
+  margin:auto;
+}
 
+fieldset{
+  padding: 10px 50px 30px 50px;
+}
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+#msform fieldset:nth-child(odd) {
+    background: #DFF0D8;
+}
 
+#msform fieldset:nth-child(even) {
+    background: #5BC0DE;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#msform fieldset:last-child {
+    background: rgb(222,222,2);
+}
+.radio label{
+  width: 20%;
+  height: 60px;
+}
 
