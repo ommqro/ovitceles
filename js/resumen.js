@@ -2,7 +2,9 @@ function resumen(){
 	console.log("resumen");
 	var fin = document.getElementById('msform').lastChild;
   $(fin).html('<h2>Resumen</h2>\n\
-        <p><button class="btn btn-info" onclick="resumen();">Presiona aquí</button> para actualizar el resumen de tus respuestas.\n\
+        <p>\n\
+        <a href="#btnSync" id="btnSync" onclick="resumen();" class="btn btn btn-info">Presiona aquí <span class="glyphicon glyphicon-refresh"></span></a>\n\
+        para actualizar el resumen de tus respuestas.\n\
         <br/><br/><b>F</b> significa no contestado</p>');
 
 	res = {};
