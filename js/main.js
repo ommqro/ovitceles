@@ -38,8 +38,8 @@ function procesarRespuestaRegistroForm($data){
                 
         $('#signupalert').html(
                 "¡Yei! acabamos de registrar tu email: <b>" + $data['email'] +
-                "</b> en nuestra base de datos. <br/>Estamos listos para" +
-                "<a id='comenzarlink' href='#' onclick='mostrarLoginForm();'>comenzar con el examen</a>"
+                "</b> en nuestra base de datos. <br/>Estamos listos para " +
+                "<a id='comenzarlink' href='#' onclick='mostrarLoginForm();'>comenzar con el examen</a>."
                 );
         $('#signupalert').removeClass( "alert-danger" ).addClass( "alert-success" );
         $('#signupalert').show();
