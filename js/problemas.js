@@ -120,23 +120,23 @@ Problemas = [{
     }
 }, {
     "id": "7-a",
-    "enunciado": "Juan durmió el lunes $3\frac{1}{2}$ horas; el martes, $1\frac{1}{3}$ horas; el miércoles, $1\frac{1}{2}$ y el jueves, $3\frac{1}{3}$ . Cuántas horas durmió en total durante los cuatro días?.",
+    "enunciado": "Juan durmió el lunes $3\\frac{1}{2}$ horas; el martes, $1\\frac{1}{3}$ horas; el miércoles, $1\\frac{1}{2}$ y el jueves, $3\\frac{1}{3}$ . Cuántas horas durmió en total durante los cuatro días?.",
     "opciones": {
-        "A": "$8\frac{1}{8}$",
-        "B": "$8\frac{2}{6}$",
-        "C": "$\frac{51}{6}$",
-        "D": "$9\frac{2}{3}$",
-        "E": "$8\frac{5}{6}$"
+        "A": "$8\\frac{1}{8}$",
+        "B": "$8\\frac{2}{6}$",
+        "C": "$\\frac{51}{6}$",
+        "D": "$9\\frac{2}{3}$",
+        "E": "$8\\frac{5}{6}$"
     }
 }, {
     "id": "7-b",
-    "enunciado": "Mauricio durmió el lunes $1\frac{1}{2}$ horas ; el martes, $1\frac{1}{3}$ horas; el miércoles, $3\frac{1}{2}$  y el jueves, $3\frac{1}{3}$. Cuántas horas durmió en total durante los cuatro días?.",
+    "enunciado": "Mauricio durmió el lunes $1\\frac{1}{2}$ horas ; el martes, $1\\frac{1}{3}$ horas; el miércoles, $3\\frac{1}{2}$  y el jueves, $3\\frac{1}{3}$. Cuántas horas durmió en total durante los cuatro días?.",
     "opciones": {
-        "A": "$8\frac{1}{8}$",
-        "B": "$8\frac{2}{6}$",
-        "C": "$\frac{51}{6}$",
-        "D": "$9\frac{2}{3}$",
-        "E": "$8\frac{5}{6}$"
+        "A": "$8\\frac{1}{8}$",
+        "B": "$8\\frac{2}{6}$",
+        "C": "$\\frac{51}{6}$",
+        "D": "$9\\frac{2}{3}$",
+        "E": "$8\\frac{5}{6}$"
     }
 }, {
     "id": "8-a",
