@@ -85,4 +85,6 @@ function comenzarExamen(){
     
     pintar_problemas(Problemas);
     MathJax.Hub.Typeset();
+    
+    $('#msform-alert').show();    
 }
