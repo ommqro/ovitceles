@@ -59,7 +59,7 @@ function procesarRespuestaLoginForm($data){
         $('#login-alert').html(
                 "¡Bienvenido, <b>" + $data['email'] +
                 "<br/>Estamos listos para" +
-                "<b>comenzar con el examen</b>"
+                "<a id='comenzarlink' href='#' onclick='comenzarExamen();'>comenzar con el examen</a>."
                 );
         $('#login-alert').removeClass( "alert-danger" ).addClass( "alert-success" );
         $('#login-alert').show();
