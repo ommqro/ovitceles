@@ -40,7 +40,7 @@ Problemas = [{
     }
 }, {
     "id": "5-b",
-    "enunciado": "Si $A$ es el conjunto de los números de 1 a 100 cuyo menor divisor primo es 7, la cantidad de elementos de A es:",
+    "enunciado": "Si $A$ es el conjunto de los números de 1 a 100 cuyo menor divisor primo es 7, la cantidad de elementos de $A$ es:",
     "opciones": {
         "A": "$5$",
         "B": "$4$",
