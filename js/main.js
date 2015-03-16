@@ -105,14 +105,14 @@ function enviarRespuestas(){
   
    $.get( "https://t.ommqro.mx/registro.php", datos_array, function( data ) {
     console.log( data );
-	if(data['uju'] === "3001"){
+	if(data['uju'] == 3001){
             $('#msform-alert').html('¡Listo! Acabamos de guardar las siguientes respuestas:<br/>\n\
                                     <pre>'+data['respuestas']+'</pre>\n\
                                     asociadas a tu email:' + data['email']);
            $('#msform-alert').removeClass('alert-info').addClass('alert-success');
 	}
-	else if(data['error'] === "1004"){
-            $('#msform-alert').html('<b>¡Atención!</b> El email y la frase secreta que recibimos no coinciden con nuestros registros.:<br/>\n\
+	else if(data['error'] == 1004){
+            $('#msform-alert').html('<b>¡Atención!</b> El email y la frase secreta que acabas de enviarnos no coinciden con nuestros registros.<br/>\n\
                                     <b>no guardamos las respuestas que nos enviaste</b>. Por favor comunícate con nosotros para resolver este problema.');
            $('#msform-alert').removeClass('alert-success').addClass('alert-danger');            
 	}
@@ -120,12 +120,10 @@ function enviarRespuestas(){
             $('#msform-alert').html('<b>¡Atención!</b> Un error inesperado ocurrió:<br/>\n\
                                     <b>no guardamos las respuestas que nos enviaste</b>. Por favor comunícate con nosotros para resolver este problema.\n\
                                     <br> por favor indícanos este mensaje de error:\n\
-                                    <pre>'+json_decode(data)+'</pre>');
+                                    <pre>'+JSON.stringify(data, null, 2)+'</pre>');
            $('#msform-alert').removeClass('alert-success').addClass('alert-danger');            
         }
 	
-
    }, "json");  
 
-    
 }
