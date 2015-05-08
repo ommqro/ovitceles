@@ -8,7 +8,7 @@ function resumen(){
         <br/><br/><b>F</b> significa no contestado</p>');
 
 	res = {};
-     for (i=1; i<=15; i++){
+     for (i=1; i<=28; i++){
 	  var s;
        
        var help = "";
