@@ -204,7 +204,7 @@ Problemas = [
     },
     {
         "id":"19-b",
-        "enunciad o":"Max le preguntó a sus cinco amigos que cuántos de ellos habían estudiado para el examen de Matemáticas. Octavio dijo que ninguno. Gabriela dijo que solamente uno. Sunya dijo que exactamente dos. Marco dijo que exactamente tres y Claudia dijo que exactamente cuatro. Max sabe que los que no estudiaron estan diciendo mentiras, y que aquellos que estudiaron están diciendo la verdad. ¿Cuántos de los amigos de Max estudiaron para el examen? ",
+        "enunciado":"Max le preguntó a sus cinco amigos que cuántos de ellos habían estudiado para el examen de Matemáticas. Octavio dijo que ninguno. Gabriela dijo que solamente uno. Sunya dijo que exactamente dos. Marco dijo que exactamente tres y Claudia dijo que exactamente cuatro. Max sabe que los que no estudiaron estan diciendo mentiras, y que aquellos que estudiaron están diciendo la verdad. ¿Cuántos de los amigos de Max estudiaron para el examen?",
         "opciones":{
             "A":"$2$",
             "B":"$1$",
@@ -237,7 +237,7 @@ Problemas = [
     },
     {
         "id":"22-b",
-        "enunciado":"Tres números primos $p,q,r$ satisfacen que $p<q<r$ y $p+q=r$. El único valor que puede tomar $p$ es:",
+        "enunciado":"Tres números primos $p,q,r$ satisfacen que $p < q < r$ y $p+q=r$. El único valor que puede tomar $p$ es:",
         "opciones":{
             "A":"$2$",
             "B":"$6$",
@@ -279,7 +279,7 @@ Problemas = [
             "D":"$8$",
             "E":"Faltan datos"
         },
-        "imagen":"img/pentagono.jpg"
+        "imagen":"img/pentagono.png"
     },
     {
         "id":"26-b",
@@ -313,6 +313,6 @@ Problemas = [
             "D":"$4$",
             "E":"$5$"
         },
-        "imagen":"img/tarjetas.jpg"
+        "imagen":"img/tarjetas.png"
     }
 ];
