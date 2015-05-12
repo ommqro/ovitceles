@@ -82,13 +82,13 @@ Problemas = [
     },
     {
         "id":"8-a",
-        "enunciado":" En una sala de cine con cupo para 160 personas se registra la asistencia del público a una película. La sala se encuentra llena. La gráfica muestra la relación de adultos y menores de edad en la sala. Si hay 18 niñas por cada 12 niños presentes, ¿cuántas niñas hay en toda la sala?",
+        "enunciado":"Debido a un error, esta pregunta (la octava) no muestra la imagen que es necesaria para entender el problema. Elige cualquiera de las opciones (A,B,C,D o E), consideraremos que TODOS respondieron correctamente esta pregunta.",
         "opciones":{
-            "A":"$72$",
-            "B":"$60$",
-            "C":"$48$",
-            "D":"$40$",
-            "E":"$12$"
+            "A":"A",
+            "B":"B",
+            "C":"C",
+            "D":"D",
+            "E":"E"
         }
     },
     {
