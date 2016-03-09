@@ -1,6 +1,6 @@
 Problemas = [{
     "id": "1-a",
-    "enunciado": "El segmento $AB$ es di\\'{a}metro de un c\\'{\\i}rculo de radio $2$ y tambi\\'{e}n es lado del tri\\'{a}ngulo equil\\'{a}tero $ABC$. El c\\'{\\i}rculo intersecta \\ a los lados  $AC$ y $AB$ en los puntos $D$ y $E$ respectivamente. La longitud de $AE$ es:",
+    "enunciado": "El segmento $AB$ es diámetro de un círculo de radio $2$ y también es lado del triángulo equilátero $ABC$. El círculo intersecta a los lados  $AC$ y $AB$ en los puntos $D$ y $E$ respectivamente. La longitud de $AE$ es:",
     "opciones": {
         "A": "$\\frac{3}{2}$",
         "B": "$\\frac{5}{3}$",
@@ -10,7 +10,7 @@ Problemas = [{
     }
 }, {
     "id": "2-a",
-    "enunciado": "Si $xy=a$, $xz=b$, y $yz=c$, y ning\\'{u}na de estas cantidades es $0$, entonces $x^{2}+y^{2}+z^{2}$ es igual a",
+    "enunciado": "Si $xy=a$, $xz=b$, y $yz=c$, y ninguna de estas cantidades es $0$, entonces $x^{2}+y^{2}+z^{2}$ es igual a",
     "opciones": {
         "A": "$\\frac{ab+ac+bc}{abc}$",
         "B": "$\\frac{a^{2}+b^{2}+c^{2}}{abc}$",
@@ -20,7 +20,7 @@ Problemas = [{
     }
 },  {
     "id": "3-a",
-    "enunciado": "Un punto $P$ est\\'{a} afuera de un c\\'{\\i}rculo $C$ en el plano. \\textquestiondown Cu\\'{a}l es el n\\'{u}mero m\\'{a}ximo de puntos de $C$ que pueden estar a $3$ cm. de $P$?",
+    "enunciado": "Un punto $P$ está afuera de un círculo $C$ en el plano. ¿Cuál es el número máximo de puntos de $C$ que pueden estar a $3$ cmf de $P$?",
     "opciones": {
         "A": "$1$",
         "B": "$2$",
@@ -30,7 +30,7 @@ Problemas = [{
     }
 }, {
     "id": "4-a",
-    "enunciado": "Si $p$, $q$ y $r$ son n\\'{u}meros primos que satisfacen $p+q=r$ y $1<p<q$, entonces $p$ es igual a",
+    "enunciado": "Si $p$, $q$ y $r$ son números primos que satisfacen $p+q=r$ y $1 < p < q$, entonces $p$ es igual a",
     "opciones": {
         "A": "$2$",
         "B": "$3$",
@@ -70,7 +70,7 @@ Problemas = [{
     }
 }, {
     "id": "8-a",
-    "enunciado": "Mir\\'e la hora un poco despu\\'es de las $6$ AM y las agujas formaban un \\'angulo de $110^\\circ$. Volv\\'{\\i} a mirarla antes de las $7$ AM y nuevamente se formaba un \\'angulo de $110^\\circ$. ?`Cu\\'antos minutos hab\\'ian pasado?",
+    "enunciado": "Miré la hora un poco después de las $6$ AM y las agujas formaban un ángulo de $110^\\circ$. Volví a mirarla antes de las $7$ AM y nuevamente se formaba un ángulo de $110^\\circ$. ¿Cuántos minutos habían pasado?",
     "opciones": {
         "A": "$40$",
         "B": "$30$",
@@ -80,7 +80,7 @@ Problemas = [{
     }
 }, {
     "id": "9-a",
-    "enunciado" : "En una caja se tienen 20 pares de zapatos completos de tres colores distintos y de tres tama\\~nos distintos.  Si en la caja hay: 4 pares rojos, 1 chico, 1 mediano y 2 grandes; 7 pares verdes, 2 chicos, 2 medianos y 3 grandes; 9 pares azules, 2 chicos, 3 medianos y 4 grandes, ?`cu\\'al es la cantidad m\\'inima de zapatos que debes sacar para estar seguro de que sacaste un par completo del mismo color y tama~no?",
+    "enunciado" : "En una caja se tienen 20 pares de zapatos completos de tres colores distintos y de tres tamaños distintos.  Si en la caja hay: 4 pares rojos, 1 chico, 1 mediano y 2 grandes; 7 pares verdes, 2 chicos, 2 medianos y 3 grandes; 9 pares azules, 2 chicos, 3 medianos y 4 grandes, ¿cuál es la cantidad mínima de zapatos que debes sacar para estar seguro de que sacaste un par completo del mismo color y tamaño?",
     "opciones" : {
         "A": "$4$",
         "B": "$16$",
@@ -90,7 +90,7 @@ Problemas = [{
     }
 }, {
     "id": "10-a",
-    "enunciado": "Juan ha decidido repartir 35 canicas entre sus primos. Si nadie puede tener la misma cantidad de canicas, ?`cu\\'al es la m\\'axima cantidad de primos a los que les puede repartir sus canicas?",
+    "enunciado": "Juan ha decidido repartir 35 canicas entre sus primos. Si nadie puede tener la misma cantidad de canicas, ¿cuál es la máxima cantidad de primos a los que les puede repartir sus canicas?",
     "opciones": {
         "A": "$6$",
         "B": "$7$",
@@ -100,7 +100,7 @@ Problemas = [{
     }
 }, {
     "id": "11-a",
-    "enunciado": " Juanito tiene un cup\\'on del $20\\%$ de descuento sobre el total a pagar de su compra en la tienda de la Olimpiada. Decidi\\'o ir a comprar una taza.  Al llegar a la tienda se encontr\\'o con que la taza ten\\'ia un $30\\%$ de descuento. ?`Cu\\'al es el descuento total que obtendr\\'a Juanito si utiliza el cup\\'on?",
+    "enunciado": " Juanito tiene un cupón del $20\\%$ de descuento sobre el total a pagar de su compra en la tienda de la Olimpiada. Decidió ir a comprar una taza.  Al llegar a la tienda se encontró con que la taza tenía un $30\\%$ de descuento. ¿Cuál es el descuento total que obtendrá Juanito si utiliza el cupón?",
     "opciones" : {
         "A": "$44\\%$",
         "B": "$50\\%$",
@@ -110,7 +110,7 @@ Problemas = [{
     }
 }, {
     "id": "12-a",
-    "enunciado": "La mam\\'a de Miguel, Julio y To~no, les reparte 5 paletas, ?`de cu\\'antas formas se las puede repartir? (Puede ser que a alguno no le toque paleta.)",
+    "enunciado": "La mamá de Miguel, Julio y Toño, les reparte 5 paletas, ¿de cuántas formas se las puede repartir? (Puede ser que a alguno no le toque paleta.)",
     "opciones" : {
         "A": "$12$",
         "B": "$15$",
@@ -120,7 +120,7 @@ Problemas = [{
     }
 }, {
     "id": "13-a",
-    "enunciado": "Cuando a un barril le falta el 30\\% para llenarse contiene 30 litros m\\'as que cuando est\\'a lleno hasta el 30\\%. ¿Cu\\'antos litros le caben al barril?",
+    "enunciado": "Cuando a un barril le falta el $30\\%$ para llenarse contiene 30 litros más que cuando está lleno hasta el $30\\%$. ¿Cuántos litros le caben al barril?",
     "opciones" : {
         "A": "$50$",
         "B": "$60$",
@@ -130,7 +130,7 @@ Problemas = [{
     }
 },  {
     "id": "14-a",
-    "enunciado": "¿Cu\\'antas personas hubo en una fiesta que se sabe que se saludaron de mano todos los asistentes y que hubo 190 apretones de mano?",
+    "enunciado": "¿Cuántas personas hubo en una fiesta que se sabe que se saludaron de mano todos los asistentes y que hubo 190 apretones de mano?",
     "opciones" : {
         "A": "$16$",
         "B": "$17$",
@@ -140,7 +140,7 @@ Problemas = [{
     }
 }, {
     "id": "15-a",
-    "enunciado": "¿Cu\\'antos enteros positivos menores que 50 tienen un n\\'umero par de divisores positivos?",
+    "enunciado": "¿Cuántos enteros positivos menores que 50 tienen un número par de divisores positivos?",
     "opciones" : {
         "A": "$5$",
         "B": "$7$",
