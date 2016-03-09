@@ -1,6 +1,6 @@
 $( "#signupform" ).submit(function( event ) {
 $.ajax({
-    url: "https://t.ommqro.mx/registro.php", 
+    url: "https://api.ommqro.mx/registro.php", 
     jsonp: "callback",
     dataType: "jsonp",
     data: 
@@ -17,7 +17,7 @@ $.ajax({
 
 $( "#loginform" ).submit(function( event ) {
 $.ajax({
-    url: "https://t.ommqro.mx/registro.php", 
+    url: "https://api.ommqro.mx/registro.php", 
     jsonp: "callback",
     dataType: "jsonp",
     data: 
@@ -58,7 +58,7 @@ function procesarRespuestaLoginForm($data){
         $('#login-alert').removeClass( "alert-success" ).addClass( "alert-danger" );
         $('#login-alert').show();
     }
-    else if($data['uju'] === "2015") {
+    else if($data['uju'] === "2016") {
         $('#login-alert').html(
                 "¡Bienvenido, <b>" + $data['email'] +
                 "<br/>Estamos listos para " +
@@ -103,7 +103,7 @@ function enviarRespuestas(){
   datos_array["accion"]    = "actualizarRespuestas";
   datos_array["respuestas"]   = JSON.stringify(res);
   
-   $.get( "https://t.ommqro.mx/registro.php", datos_array, function( data ) {
+   $.get( "https://api.ommqro.mx/registro.php", datos_array, function( data ) {
     console.log( data );
 	if(data['uju'] == 3001){
             $('#msform-alert').html('¡Listo! Acabamos de guardar las siguientes respuestas:<br/>\n\
