@@ -20,7 +20,7 @@ Problemas = [{
     }
 },  {
     "id": "3-a",
-    "enunciado": "Un punto $P$ está afuera de un círculo $C$ en el plano. ¿Cuál es el número máximo de puntos de $C$ que pueden estar a $3$ cmf de $P$?",
+    "enunciado": "Un punto $P$ está afuera de un círculo $C$ en el plano. ¿Cuál es el número máximo de puntos de $C$ que pueden estar a $3$ cm de $P$?",
     "opciones": {
         "A": "$1$",
         "B": "$2$",
