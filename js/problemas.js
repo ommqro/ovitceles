@@ -1,6 +1,6 @@
 Problemas = [{
     "id": "1-a",
-    "enunciado": "El segmento $AB$ es diámetro de un círculo de radio $2$ y también es lado del triángulo equilátero $ABC$. El círculo intersecta a los lados  $AC$ y $AB$ en los puntos $D$ y $E$ respectivamente. La longitud de $AE$ es:",
+    "enunciado": "El segmento $AB$ es diámetro de una circunferencia de radio $1$ y también es lado del triángulo equilátero $ABC$. La circunferencia intersecta a los lados  $AC$ y $BC$ en los puntos $D$ y $E$ respectivamente. La longitud de $AE$ es:",
     "opciones": {
         "A": "$\\frac{3}{2}$",
         "B": "$\\frac{5}{3}$",
@@ -20,7 +20,7 @@ Problemas = [{
     }
 },  {
     "id": "3-a",
-    "enunciado": "Un punto $P$ está afuera de un círculo $C$ en el plano. ¿Cuál es el número máximo de puntos de $C$ que pueden estar a $3$ cm de $P$?",
+    "enunciado": "Un punto $P$ está afuera de la circunferencia $C$ en el plano. ¿Cuál es el número máximo de puntos de $C$ que pueden estar a $3$ cm de $P$?",
     "opciones": {
         "A": "$1$",
         "B": "$2$",
@@ -60,7 +60,7 @@ Problemas = [{
     }
 }, {
     "id": "7-a",
-    "enunciado": "El verano pasado el $30\\%$ de las aves que vivían en la Ciudad Lago eran gansos, $25\\%$ eran cisnes, $10\\%$ eran garzas y $35\\%$ patos. ¿Qué porcentaje de las aves que no eran gansos eran cisnes?",
+    "enunciado": "El verano pasado el $30\\%$ de las aves que vivían en la Ciudad Lago eran gansos, $25\\%$ eran cisnes, $10\\%$ eran garzas y $35\\%$ patos. ¿Qué porcentaje de las aves que no eran gansos eran patos?",
     "opciones": {
         "A": "$20$",
         "B": "$25$",
