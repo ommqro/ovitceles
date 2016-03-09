@@ -130,7 +130,7 @@ Problemas = [{
     }
 },  {
     "id": "14-a",
-    "enunciado": "¿Cuántas personas hubo en una fiesta que se sabe que se saludaron de mano todos los asistentes y que hubo 190 apretones de mano?",
+    "enunciado": "¿Cuántas personas hubo en una fiesta en la que se sabe que se saludaron de mano todos los asistentes y que hubo 190 apretones de mano?",
     "opciones" : {
         "A": "$16$",
         "B": "$17$",
