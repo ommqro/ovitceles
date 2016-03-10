@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0/angular.js"></script>
+
+<style>
+.flat-table {
+  display: block;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 115%;
+  overflow: auto;
+  width: auto;
+}
+.flat-table th {
+  background-color: #70c469;
+  color: white;
+  font-weight: normal;
+  padding: 20px 30px;
+  text-align: center;
+}
+.flat-table td {
+  background-color: #eeeeee;
+  color: #6f6f6f;
+  padding: 20px 30px;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<div ng-app="selectivo.ommqro.mx" ng-controller="myCtrl">
+
+  
+<table class="flat-table">
+  <tbody>
+    <tr>
+      <th>Nombre</th>
+      <th>Escuela</th>
+    </tr>
+    <tr ng-repeat="alumno in inscritos">
+      <td>{{ alumno.nombre }}</td>
+      <td>{{ alumno.escuela }}</td>
+    </tr>
+  </tbody>
+	</table>
+  
+
+</div>
+
+<script>
+var app = angular.module('selectivo.ommqro.mx', []);
+app.controller('myCtrl', function($scope, $http) {
+  $http({
+    method : "GET",
+    url : "https://api.ommqro.mx/inscritos.php?accion=consultarInscritos"
+  }).then(function mySucces(response) {
+      $scope.inscritos = response.data;
+    }, function myError(response) {
+      $scope.inscritos = response.statusText;
+  });
+});
+</script>
+</body>
+</html>
