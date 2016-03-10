@@ -143,9 +143,9 @@ Problemas = [{
     "enunciado": "¿Cuántos enteros positivos menores que 50 tienen un número par de divisores positivos?",
     "opciones" : {
         "A": "$5$",
-        "B": "$7$",
-        "C": "$9$",
-        "D": "$11$",
-        "E": " $8$"
+        "B": "$15$",
+        "C": "$23$",
+        "D": "$35$",
+        "E": "$49$"
 },
 }];
