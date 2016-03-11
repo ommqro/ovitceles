@@ -36,9 +36,13 @@
 
 <table class="flat-table">
   <tbody>
-    <tr>
+		<tr>
       <th>Inscritos</th>
 			<td>{{inscritos.length}}</td>
+    </tr>
+		<tr>
+      <th>Respuestas</th>
+			<td>{{respuestasRecibidas()}}</td>
     </tr>
   </tbody>
 </table>
@@ -46,12 +50,14 @@
 <table class="flat-table">
   <tbody>
     <tr>
+			<th>Respuestas</th>
       <th>Nombre</th>
-      <th>Escuela</th>
+			<th>Escuela</th>
     </tr>
     <tr ng-repeat="alumno in inscritos">
+			<td>{{ respuestasEnviadas(alumno.respuestas) }}</td>
 			<td>{{ alumno.nombre }} {{ alumno.apellido }}</td>
-      <td>{{ alumno.escuela }}</td>
+			<td>{{ alumno.escuela }}</td>
     </tr>
   </tbody>
 </table>
@@ -70,6 +76,24 @@ app.controller('myCtrl', function($scope, $http) {
     }, function myError(response) {
       $scope.inscritos = response.statusText;
   });
+
+	$scope.respuestasRecibidas = function(){
+		var totalDeRecibidas = 0;
+		for (var i = 0; i < $scope.inscritos.length; i++) {
+			var recibidas = $scope.inscritos[i].respuestas == 'true';
+			if(recibidas){
+				totalDeRecibidas++;
+			}
+		}
+
+		return totalDeRecibidas;
+	}
+
+	$scope.respuestasEnviadas = function(bulean){
+		bulean = bulean == 'true';
+		return (bulean ? "Sí" : "No");
+	}
+
 });
 </script>
 </body>
