@@ -34,8 +34,15 @@
 
 <div ng-app="selectivo.ommqro.mx" ng-controller="myCtrl">
 
+<table class="flat-table">
+  <tbody>
+    <tr>
+      <th>Inscritos</th>
+			<td>{{inscritos.length}}</td>
+    </tr>
+  </tbody>
+</table>
 
-<h3>{{inscritos.length}} inscritos hasta el momento</h3>
 <table class="flat-table">
   <tbody>
     <tr>
@@ -47,7 +54,7 @@
       <td>{{ alumno.escuela }}</td>
     </tr>
   </tbody>
-	</table>
+</table>
 
 
 </div>
