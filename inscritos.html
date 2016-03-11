@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8" /> 
+	<meta charset="utf-8" />
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0/angular.js"></script>
 
 <style>
@@ -50,7 +50,7 @@
 <table class="flat-table">
   <tbody>
     <tr>
-			<th>Respuestas</th>
+			<th>R</th>
       <th>Nombre</th>
 			<th>Escuela</th>
     </tr>
@@ -68,6 +68,9 @@
 <script>
 var app = angular.module('selectivo.ommqro.mx', []);
 app.controller('myCtrl', function($scope, $http) {
+
+	$scope.inscritos = {};
+
   $http({
     method : "GET",
     url : "https://api.ommqro.mx/inscritos.php?accion=consultarInscritos"
@@ -85,7 +88,6 @@ app.controller('myCtrl', function($scope, $http) {
 				totalDeRecibidas++;
 			}
 		}
-
 		return totalDeRecibidas;
 	}
 
